@@ -1,3 +1,5 @@
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
 for i=1,1000 do
 wait(0.0000001)
    for _, task in pairs(player.PlayerGui.Lobby.QuestsFrame.QuestMainFrame.MainFrame.AllQuests.Daily:FindFirstChild()) do
